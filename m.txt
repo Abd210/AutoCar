@@ -1,0 +1,5 @@
+.\venv\Scripts\activate
+ python manage.py runserver
+python manage.py migrate
+django-admin startproject automax // create a project
+python manage.py startapp main
